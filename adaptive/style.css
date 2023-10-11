@@ -1,0 +1,121 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.base{
+    margin: 15px 0px 60px 90px;
+}
+
+.logo{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo svg{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.emir{
+    position: absolute;
+    right: 100px;
+    display: flex;
+    flex-direction: row;  
+    gap: 60px;
+   
+}
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 40px;
+    }
+
+.lang h5:first-child{
+    color:  #4478BB;
+}
+.lang h5:last-child{
+    color: black;
+}
+
+
+.logo h5{
+    color: #045599;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.title h1{
+    display: flex;
+    flex-direction: row;
+    font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+gap: 17px;
+}
+
+.title p:first-child{
+    color: #000;
+}
+
+.title p:last-child{
+    color:  #F48020;
+    margin-top: 96px;
+}
+
+.btns{
+    gap: 25px;
+    display: flex;
+align-items: center;
+
+}
+
+.btns button{
+    width: 190px;
+    height: 45px;
+    border-radius: 4px;
+    padding: 14px 52px;
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+}
+
+.btns button:first-child{
+background: #F48020;
+}
+
+.btns button:last-child{
+background: #4478BB;
+}
+
+.base table{
+    margin-top: 60px;
+    border: none;
+}
+
+.base table td{
+    padding: 20px 40px 20px 40px;
+}
